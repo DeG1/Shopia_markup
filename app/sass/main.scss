@@ -1,0 +1,38 @@
+// Sass-utilities
+@import 'sass-utilities/variables';
+@import 'sass-utilities/mixins';
+// Layout
+@import 'layout/sprite';
+@import 'layout/section-1';
+@import 'layout/header';
+@import 'layout/slider';
+@import 'layout/ads';
+@import 'layout/fonts';
+
+
+
+
+
+
+// Some workflow
+
+html{
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1290px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+

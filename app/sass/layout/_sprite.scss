@@ -1,0 +1,310 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$brand-bakery-name: 'brand_bakery';
+$brand-bakery-x: 297px;
+$brand-bakery-y: 0px;
+$brand-bakery-offset-x: -297px;
+$brand-bakery-offset-y: 0px;
+$brand-bakery-width: 125px;
+$brand-bakery-height: 98px;
+$brand-bakery-total-width: 593px;
+$brand-bakery-total-height: 380px;
+$brand-bakery-image: 'sprite.png';
+$brand-bakery: (297px, 0px, -297px, 0px, 125px, 98px, 593px, 380px, 'sprite.png', 'brand_bakery', );
+$brand-cavalier-name: 'brand_cavalier';
+$brand-cavalier-x: 297px;
+$brand-cavalier-y: 118px;
+$brand-cavalier-offset-x: -297px;
+$brand-cavalier-offset-y: -118px;
+$brand-cavalier-width: 118px;
+$brand-cavalier-height: 78px;
+$brand-cavalier-total-width: 593px;
+$brand-cavalier-total-height: 380px;
+$brand-cavalier-image: 'sprite.png';
+$brand-cavalier: (297px, 118px, -297px, -118px, 118px, 78px, 593px, 380px, 'sprite.png', 'brand_cavalier', );
+$brand-energy-name: 'brand_energy';
+$brand-energy-x: 442px;
+$brand-energy-y: 0px;
+$brand-energy-offset-x: -442px;
+$brand-energy-offset-y: 0px;
+$brand-energy-width: 151px;
+$brand-energy-height: 45px;
+$brand-energy-total-width: 593px;
+$brand-energy-total-height: 380px;
+$brand-energy-image: 'sprite.png';
+$brand-energy: (442px, 0px, -442px, 0px, 151px, 45px, 593px, 380px, 'sprite.png', 'brand_energy', );
+$brand-harvest-name: 'brand_harvest';
+$brand-harvest-x: 163px;
+$brand-harvest-y: 297px;
+$brand-harvest-offset-x: -163px;
+$brand-harvest-offset-y: -297px;
+$brand-harvest-width: 146px;
+$brand-harvest-height: 80px;
+$brand-harvest-total-width: 593px;
+$brand-harvest-total-height: 380px;
+$brand-harvest-image: 'sprite.png';
+$brand-harvest: (163px, 297px, -163px, -297px, 146px, 80px, 593px, 380px, 'sprite.png', 'brand_harvest', );
+$brand-landlock-name: 'brand_landlock';
+$brand-landlock-x: 0px;
+$brand-landlock-y: 297px;
+$brand-landlock-offset-x: 0px;
+$brand-landlock-offset-y: -297px;
+$brand-landlock-width: 143px;
+$brand-landlock-height: 83px;
+$brand-landlock-total-width: 593px;
+$brand-landlock-total-height: 380px;
+$brand-landlock-image: 'sprite.png';
+$brand-landlock: (0px, 297px, 0px, -297px, 143px, 83px, 593px, 380px, 'sprite.png', 'brand_landlock', );
+$brand-spectrum-name: 'brand_spectrum';
+$brand-spectrum-x: 442px;
+$brand-spectrum-y: 65px;
+$brand-spectrum-offset-x: -442px;
+$brand-spectrum-offset-y: -65px;
+$brand-spectrum-width: 105px;
+$brand-spectrum-height: 45px;
+$brand-spectrum-total-width: 593px;
+$brand-spectrum-total-height: 380px;
+$brand-spectrum-image: 'sprite.png';
+$brand-spectrum: (442px, 65px, -442px, -65px, 105px, 45px, 593px, 380px, 'sprite.png', 'brand_spectrum', );
+$card-american-express-name: 'card_American-Express';
+$card-american-express-x: 567px;
+$card-american-express-y: 65px;
+$card-american-express-offset-x: -567px;
+$card-american-express-offset-y: -65px;
+$card-american-express-width: 20px;
+$card-american-express-height: 20px;
+$card-american-express-total-width: 593px;
+$card-american-express-total-height: 380px;
+$card-american-express-image: 'sprite.png';
+$card-american-express: (567px, 65px, -567px, -65px, 20px, 20px, 593px, 380px, 'sprite.png', 'card_American-Express', );
+$card-mastercard-name: 'card_Mastercard';
+$card-mastercard-x: 491px;
+$card-mastercard-y: 347px;
+$card-mastercard-offset-x: -491px;
+$card-mastercard-offset-y: -347px;
+$card-mastercard-width: 24px;
+$card-mastercard-height: 14px;
+$card-mastercard-total-width: 593px;
+$card-mastercard-total-height: 380px;
+$card-mastercard-image: 'sprite.png';
+$card-mastercard: (491px, 347px, -491px, -347px, 24px, 14px, 593px, 380px, 'sprite.png', 'card_Mastercard', );
+$card-visa-name: 'card_Visa';
+$card-visa-x: 522px;
+$card-visa-y: 318px;
+$card-visa-offset-x: -522px;
+$card-visa-offset-y: -318px;
+$card-visa-width: 20px;
+$card-visa-height: 6px;
+$card-visa-total-width: 593px;
+$card-visa-total-height: 380px;
+$card-visa-image: 'sprite.png';
+$card-visa: (522px, 318px, -522px, -318px, 20px, 6px, 593px, 380px, 'sprite.png', 'card_Visa', );
+$card-discover-name: 'card_discover';
+$card-discover-x: 442px;
+$card-discover-y: 347px;
+$card-discover-offset-x: -442px;
+$card-discover-offset-y: -347px;
+$card-discover-width: 29px;
+$card-discover-height: 14px;
+$card-discover-total-width: 593px;
+$card-discover-total-height: 380px;
+$card-discover-image: 'sprite.png';
+$card-discover: (442px, 347px, -442px, -347px, 29px, 14px, 593px, 380px, 'sprite.png', 'card_discover', );
+$chevron-name: 'chevron';
+$chevron-x: 535px;
+$chevron-y: 347px;
+$chevron-offset-x: -535px;
+$chevron-offset-y: -347px;
+$chevron-width: 17px;
+$chevron-height: 11px;
+$chevron-total-width: 593px;
+$chevron-total-height: 380px;
+$chevron-image: 'sprite.png';
+$chevron: (535px, 347px, -535px, -347px, 17px, 11px, 593px, 380px, 'sprite.png', 'chevron', );
+$facebook-name: 'facebook';
+$facebook-x: 442px;
+$facebook-y: 210px;
+$facebook-offset-x: -442px;
+$facebook-offset-y: -210px;
+$facebook-width: 34px;
+$facebook-height: 34px;
+$facebook-total-width: 593px;
+$facebook-total-height: 380px;
+$facebook-image: 'sprite.png';
+$facebook: (442px, 210px, -442px, -210px, 34px, 34px, 593px, 380px, 'sprite.png', 'facebook', );
+$fourpercents-name: 'fourpercents';
+$fourpercents-x: 442px;
+$fourpercents-y: 130px;
+$fourpercents-offset-x: -442px;
+$fourpercents-offset-y: -130px;
+$fourpercents-width: 60px;
+$fourpercents-height: 60px;
+$fourpercents-total-width: 593px;
+$fourpercents-total-height: 380px;
+$fourpercents-image: 'sprite.png';
+$fourpercents: (442px, 130px, -442px, -130px, 60px, 60px, 593px, 380px, 'sprite.png', 'fourpercents', );
+$instagram-name: 'instagram';
+$instagram-x: 496px;
+$instagram-y: 210px;
+$instagram-offset-x: -496px;
+$instagram-offset-y: -210px;
+$instagram-width: 34px;
+$instagram-height: 34px;
+$instagram-total-width: 593px;
+$instagram-total-height: 380px;
+$instagram-image: 'sprite.png';
+$instagram: (496px, 210px, -496px, -210px, 34px, 34px, 593px, 380px, 'sprite.png', 'instagram', );
+$line-left-name: 'line_left';
+$line-left-x: 442px;
+$line-left-y: 318px;
+$line-left-offset-x: -442px;
+$line-left-offset-y: -318px;
+$line-left-width: 60px;
+$line-left-height: 9px;
+$line-left-total-width: 593px;
+$line-left-total-height: 380px;
+$line-left-image: 'sprite.png';
+$line-left: (442px, 318px, -442px, -318px, 60px, 9px, 593px, 380px, 'sprite.png', 'line_left', );
+$line-right-name: 'line_right';
+$line-right-x: 496px;
+$line-right-y: 264px;
+$line-right-offset-x: -496px;
+$line-right-offset-y: -264px;
+$line-right-width: 61px;
+$line-right-height: 9px;
+$line-right-total-width: 593px;
+$line-right-total-height: 380px;
+$line-right-image: 'sprite.png';
+$line-right: (496px, 264px, -496px, -264px, 61px, 9px, 593px, 380px, 'sprite.png', 'line_right', );
+$phone-name: 'phone';
+$phone-x: 572px;
+$phone-y: 347px;
+$phone-offset-x: -572px;
+$phone-offset-y: -347px;
+$phone-width: 10px;
+$phone-height: 10px;
+$phone-total-width: 593px;
+$phone-total-height: 380px;
+$phone-image: 'sprite.png';
+$phone: (572px, 347px, -572px, -347px, 10px, 10px, 593px, 380px, 'sprite.png', 'phone', );
+$pinterest-name: 'pinterest';
+$pinterest-x: 442px;
+$pinterest-y: 264px;
+$pinterest-offset-x: -442px;
+$pinterest-offset-y: -264px;
+$pinterest-width: 34px;
+$pinterest-height: 34px;
+$pinterest-total-width: 593px;
+$pinterest-total-height: 380px;
+$pinterest-image: 'sprite.png';
+$pinterest: (442px, 264px, -442px, -264px, 34px, 34px, 593px, 380px, 'sprite.png', 'pinterest', );
+$testborder-name: 'testborder';
+$testborder-x: 0px;
+$testborder-y: 0px;
+$testborder-offset-x: 0px;
+$testborder-offset-y: 0px;
+$testborder-width: 277px;
+$testborder-height: 277px;
+$testborder-total-width: 593px;
+$testborder-total-height: 380px;
+$testborder-image: 'sprite.png';
+$testborder: (0px, 0px, 0px, 0px, 277px, 277px, 593px, 380px, 'sprite.png', 'testborder', );
+$twitter-name: 'twitter';
+$twitter-x: 550px;
+$twitter-y: 210px;
+$twitter-offset-x: -550px;
+$twitter-offset-y: -210px;
+$twitter-width: 34px;
+$twitter-height: 34px;
+$twitter-total-width: 593px;
+$twitter-total-height: 380px;
+$twitter-image: 'sprite.png';
+$twitter: (550px, 210px, -550px, -210px, 34px, 34px, 593px, 380px, 'sprite.png', 'twitter', );
+$twopercents-name: 'twopercents';
+$twopercents-x: 522px;
+$twopercents-y: 130px;
+$twopercents-offset-x: -522px;
+$twopercents-offset-y: -130px;
+$twopercents-width: 60px;
+$twopercents-height: 60px;
+$twopercents-total-width: 593px;
+$twopercents-total-height: 380px;
+$twopercents-image: 'sprite.png';
+$twopercents: (522px, 130px, -522px, -130px, 60px, 60px, 593px, 380px, 'sprite.png', 'twopercents', );
+$spritesheet-width: 593px;
+$spritesheet-height: 380px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($brand-bakery, $brand-cavalier, $brand-energy, $brand-harvest, $brand-landlock, $brand-spectrum, $card-american-express, $card-mastercard, $card-visa, $card-discover, $chevron, $facebook, $fourpercents, $instagram, $line-left, $line-right, $phone, $pinterest, $testborder, $twitter, $twopercents, );
+$spritesheet: (593px, 380px, 'sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(../../sass/layout/#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
