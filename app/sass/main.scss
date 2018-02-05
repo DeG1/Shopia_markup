@@ -7,6 +7,8 @@
 @import 'layout/header';
 @import 'layout/slider';
 @import 'layout/ads';
+@import 'layout/collection';
+@import 'layout/summer';
 @import 'layout/fonts';
 
 
@@ -15,6 +17,10 @@
 
 
 // Some workflow
+
+//*{
+//    border: 1px solid red;
+//}
 
 html{
     font-size: 10px;
