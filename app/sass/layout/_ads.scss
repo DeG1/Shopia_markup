@@ -1,6 +1,23 @@
 .ads{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
+  display: flex;
+  justify-content: center;
+    
+    &-wrapp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        
+        .free{
+            width: 33%;
+        }
+        
+        .return{
+            width: 35%;
+        }
+        
+        .support{
+            width: 35%;
+        }
+    }
 }

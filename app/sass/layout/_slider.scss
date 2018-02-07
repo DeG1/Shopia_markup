@@ -18,6 +18,77 @@
         left: 51%;
         transform: translate(-52%, -50%);
         
+        .slider-sale{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 280px;
+            height: 280px;
+            border-radius: 4px;
+            border: 2px solid #fff;
+            
+            &__inner{
+                display: flex;
+                align-items: center;
+                
+                flex-direction: column;
+                width: 260px;
+                height: 260px;
+                border: 1px solid #fff;
+                
+                .heading{
+                    font-size: 1.9rem;
+                    font-family: 'Lato';
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+                
+                .sale{
+                    font-size: 5.8rem;
+                    font-family: 'Lato';
+                    margin: 0 0 2rem 0 ;
+                    text-transform: uppercase;
+                    
+                }
+                
+                .up{
+                    font-size: 1.9rem;
+                    color: #fff;
+                    font-family: 'Lato';
+                    text-transform: uppercase;
+                    position: relative;
+                    
+                    &::before{
+                        content: '';
+                        @include sprite($line_left);
+                        position: absolute;
+                        top: 10px;
+                        left: -70px;
+                    }
+                    
+                    &::after{
+                        content: '';
+                        @include sprite($line_right);
+                        position: absolute;
+                        top: 10px;
+                        right: -70px;
+                    }
+                }
+                
+                .discount{
+                    font-size: 2rem;
+                    font-family: 'Lato';
+                    color: #fff;
+                    text-transform: uppercase;
+                    
+                    span{
+                        font-size: 1.7rem;
+                        padding-right: .3rem;
+                    }
+                }
+            }
+        }
+        
         .btn{
             text-decoration: none;
             background: $orange;
